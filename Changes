@@ -1,6 +1,7 @@
 Revision history for Log::Dispatch::Email::Mailer
 
 {{$NEXT}}
+        - Looser tests to account for hash randomization
 
 1.01      2017-02-14 06:53:44-08:00 America/Los_Angeles
         - First version, released on an unsuspecting world.

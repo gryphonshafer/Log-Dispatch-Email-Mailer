@@ -36,8 +36,8 @@ b>.</p>=
 Date: [^\n]+
 MIME-Version: 1.0
 Content-Type: text/plain; name="log_file.txt"
-Content-Disposition: attachment; filename="log_file.txt"
-Content-Transfer-Encoding: quoted-printable
+[^:]+: [^\n]+
+[^:]+: [^\n]+
 
 This is plain text attachment content.=
 
