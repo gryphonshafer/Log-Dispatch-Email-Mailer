@@ -7,7 +7,7 @@ use warnings;
 
 use base 'Log::Dispatch::Email';
 
-use Email::Mailer;
+use Email::Mailer 1.07;
 
 # VERSION
 
