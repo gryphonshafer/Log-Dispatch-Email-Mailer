@@ -1,6 +1,8 @@
 Revision history for Log::Dispatch::Email::Mailer
 
 {{$NEXT}}
+
+1.03      2017-05-02 09:58:14-04:00 America/New_York
         - Require version 1.07 of Email::Mailer
 
 1.02      2017-04-28 11:05:11-04:00 America/New_York
