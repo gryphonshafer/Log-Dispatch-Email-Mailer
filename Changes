@@ -1,6 +1,8 @@
 Revision history for Log::Dispatch::Email::Mailer
 
 {{$NEXT}}
+
+1.05      2018-11-20 08:42:32-08:00 America/Los_Angeles
         - Update minimum required version of Email::Mailer
         - Fix formatting error in README/POD
 
