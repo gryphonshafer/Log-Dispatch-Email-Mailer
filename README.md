@@ -93,7 +93,7 @@ version 1.04
 This is a subclass of [Log::Dispatch::Email](https://metacpan.org/pod/Log::Dispatch::Email) that implements the `send_email()`
 method using the [Email::Mailer](https://metacpan.org/pod/Email::Mailer) module. Much like the [Email::Mailer](https://metacpan.org/pod/Email::Mailer) module,
 you can send email in a great variety of ways including text-only, HTML with
-text auto-generated, including attachments, and even using your favoriate
+text auto-generated, including attachments, and even using your favorite
 templating system.
 
 ## Simple Text Email
@@ -114,7 +114,7 @@ The simplest way to use this module is to setup an "outputs" record with
     $log->alert('This is to alert you something happened.');
 
 By default, log messages are buffered and sent either when `$log` is destroyed
-or when you call `$log-`flush>.
+or when you call `$log->`flush.
 
     $log->alert('This message will appear in an email.');
     $log->alert('This message will appear in the same email, but not yet...');
