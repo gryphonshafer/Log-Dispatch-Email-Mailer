@@ -4,7 +4,7 @@ Log::Dispatch::Email::Mailer - Log::Dispatch::Email subclass that sends mail usi
 
 # VERSION
 
-version 1.04
+version 1.05
 
 [![Build Status](https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer.svg)](https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer)
 [![Coverage Status](https://coveralls.io/repos/gryphonshafer/Log-Dispatch-Email-Mailer/badge.png)](https://coveralls.io/r/gryphonshafer/Log-Dispatch-Email-Mailer)
@@ -114,7 +114,7 @@ The simplest way to use this module is to setup an "outputs" record with
     $log->alert('This is to alert you something happened.');
 
 By default, log messages are buffered and sent either when `$log` is destroyed
-or when you call `$log->`flush.
+or when you call `$log->flush`.
 
     $log->alert('This message will appear in an email.');
     $log->alert('This message will appear in the same email, but not yet...');
