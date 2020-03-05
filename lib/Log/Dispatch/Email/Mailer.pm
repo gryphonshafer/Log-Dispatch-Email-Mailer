@@ -280,9 +280,7 @@ You can also look for additional information at:
 
 =for :list
 * L<GitHub|https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer>
-* L<CPAN|http://search.cpan.org/dist/Log-Dispatch-Email-Mailer>
 * L<MetaCPAN|https://metacpan.org/pod/Log::Dispatch::Email::Mailer>
-* L<AnnoCPAN|http://annocpan.org/dist/Log-Dispatch-Email-Mailer>
 * L<Travis CI|https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer>
 * L<Coveralls|https://coveralls.io/r/gryphonshafer/Log-Dispatch-Email-Mailer>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/Log-Dispatch-Email-Mailer>
