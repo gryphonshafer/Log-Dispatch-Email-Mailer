@@ -4,7 +4,7 @@ Log::Dispatch::Email::Mailer - Log::Dispatch::Email subclass that sends mail usi
 
 # VERSION
 
-version 1.05
+version 1.06
 
 [![Build Status](https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer.svg)](https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer)
 [![Coverage Status](https://coveralls.io/repos/gryphonshafer/Log-Dispatch-Email-Mailer/badge.png)](https://coveralls.io/r/gryphonshafer/Log-Dispatch-Email-Mailer)
@@ -90,8 +90,8 @@ version 1.05
 
 # DESCRIPTION
 
-This is a subclass of [Log::Dispatch::Email](https://metacpan.org/pod/Log::Dispatch::Email) that implements the `send_email()`
-method using the [Email::Mailer](https://metacpan.org/pod/Email::Mailer) module. Much like the [Email::Mailer](https://metacpan.org/pod/Email::Mailer) module,
+This is a subclass of [Log::Dispatch::Email](https://metacpan.org/pod/Log%3A%3ADispatch%3A%3AEmail) that implements the `send_email()`
+method using the [Email::Mailer](https://metacpan.org/pod/Email%3A%3AMailer) module. Much like the [Email::Mailer](https://metacpan.org/pod/Email%3A%3AMailer) module,
 you can send email in a great variety of ways including text-only, HTML with
 text auto-generated, including attachments, and even using your favorite
 templating system.
@@ -99,7 +99,7 @@ templating system.
 ## Simple Text Email
 
 The simplest way to use this module is to setup an "outputs" record with
-[Log::Dispatch](https://metacpan.org/pod/Log::Dispatch) much like you would any other email subclass.
+[Log::Dispatch](https://metacpan.org/pod/Log%3A%3ADispatch) much like you would any other email subclass.
 
     my $log = Log::Dispatch->new(
         outputs => [
@@ -120,7 +120,7 @@ or when you call `$log->flush`.
     $log->alert('This message will appear in the same email, but not yet...');
     $log->flush; # now both alerts will get sent in one email
 
-Note that unlike many other [Log::Dispatch::Email](https://metacpan.org/pod/Log::Dispatch::Email) subclasses, multiple
+Note that unlike many other [Log::Dispatch::Email](https://metacpan.org/pod/Log%3A%3ADispatch%3A%3AEmail) subclasses, multiple
 buffered messages won't be concatenated together without spaces. Instead, the
 messages will appear in a text-only email as independent lines.
 
@@ -143,9 +143,9 @@ each log line send a single email.
 
 ## Simple Text Email with Explicit Transport
 
-By default, this module will create its own [Email::Mailer](https://metacpan.org/pod/Email::Mailer) object through
+By default, this module will create its own [Email::Mailer](https://metacpan.org/pod/Email%3A%3AMailer) object through
 which to send email. You can provide a "mailer" value of an explicit
-[Email::Mailer](https://metacpan.org/pod/Email::Mailer) object you create and control, thus allowing you to set things
+[Email::Mailer](https://metacpan.org/pod/Email%3A%3AMailer) object you create and control, thus allowing you to set things
 like an explicit transport mechanism.
 
     my $log = Log::Dispatch->new(
@@ -170,10 +170,10 @@ like an explicit transport mechanism.
 
 If you want to have some real fun with sending email log messages (and let's be
 real here, who doesn't), try using this module to send templated HTML email
-with attachments. Any key/value you can pass to [Email::Mailer](https://metacpan.org/pod/Email::Mailer), you can pass
+with attachments. Any key/value you can pass to [Email::Mailer](https://metacpan.org/pod/Email%3A%3AMailer), you can pass
 as part of the "outputs" element.
 
-The following example uses an HTML template (which per [Email::Mailer](https://metacpan.org/pod/Email::Mailer) needs
+The following example uses an HTML template (which per [Email::Mailer](https://metacpan.org/pod/Email%3A%3AMailer) needs
 to be a scalar reference) and a very simple Template Toolkit process subref.
 
     use Template;
@@ -208,21 +208,19 @@ to be a scalar reference) and a very simple Template Toolkit process subref.
     $log->alert('This is to alert you something happened.');
 
 What's happening behind the scenes is that the "data" value that you'd normally
-pass to [Email::Mailer](https://metacpan.org/pod/Email::Mailer) that would work its way down into the "process" subref
+pass to [Email::Mailer](https://metacpan.org/pod/Email%3A%3AMailer) that would work its way down into the "process" subref
 is in this case being generated for you. It gets populated with two sub-keys:
 message and messages. The first is a "\\n"-separated string of log messages.
 The second is an arrayref of those strings.
 
 # SEE ALSO
 
-[Email::Mailer](https://metacpan.org/pod/Email::Mailer), [Log::Dispatch::Email](https://metacpan.org/pod/Log::Dispatch::Email), [Log::Dispatch](https://metacpan.org/pod/Log::Dispatch).
+[Email::Mailer](https://metacpan.org/pod/Email%3A%3AMailer), [Log::Dispatch::Email](https://metacpan.org/pod/Log%3A%3ADispatch%3A%3AEmail), [Log::Dispatch](https://metacpan.org/pod/Log%3A%3ADispatch).
 
 You can also look for additional information at:
 
 - [GitHub](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer)
-- [CPAN](http://search.cpan.org/dist/Log-Dispatch-Email-Mailer)
 - [MetaCPAN](https://metacpan.org/pod/Log::Dispatch::Email::Mailer)
-- [AnnoCPAN](http://annocpan.org/dist/Log-Dispatch-Email-Mailer)
 - [Travis CI](https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer)
 - [Coveralls](https://coveralls.io/r/gryphonshafer/Log-Dispatch-Email-Mailer)
 - [CPANTS](http://cpants.cpanauthors.org/dist/Log-Dispatch-Email-Mailer)
@@ -234,7 +232,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2018 by Gryphon Shafer.
+This software is copyright (c) 2020 by Gryphon Shafer.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
