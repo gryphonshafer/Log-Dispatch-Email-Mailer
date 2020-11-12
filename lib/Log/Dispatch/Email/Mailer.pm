@@ -63,8 +63,8 @@ __END__
 =begin :badges
 
 =for markdown
-[![Build Status](https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer.svg)](https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Log-Dispatch-Email-Mailer/badge.png)](https://coveralls.io/r/gryphonshafer/Log-Dispatch-Email-Mailer)
+[![build](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/workflows/build/badge.svg)](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/Log-Dispatch-Email-Mailer/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Log-Dispatch-Email-Mailer)
 
 =end :badges
 
@@ -281,8 +281,8 @@ You can also look for additional information at:
 =for :list
 * L<GitHub|https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer>
 * L<MetaCPAN|https://metacpan.org/pod/Log::Dispatch::Email::Mailer>
-* L<Travis CI|https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer>
-* L<Coveralls|https://coveralls.io/r/gryphonshafer/Log-Dispatch-Email-Mailer>
+* L<GitHub Actions|https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/actions>
+* L<Codecov|https://codecov.io/gh/gryphonshafer/Log-Dispatch-Email-Mailer>
 * L<CPANTS|http://cpants.cpanauthors.org/dist/Log-Dispatch-Email-Mailer>
 * L<CPAN Testers|http://www.cpantesters.org/distro/D/Log-Dispatch-Email-Mailer.html>
 
