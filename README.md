@@ -4,10 +4,10 @@ Log::Dispatch::Email::Mailer - Log::Dispatch::Email subclass that sends mail usi
 
 # VERSION
 
-version 1.08
+version 1.09
 
-[![Build Status](https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer.svg)](https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer)
-[![Coverage Status](https://coveralls.io/repos/gryphonshafer/Log-Dispatch-Email-Mailer/badge.png)](https://coveralls.io/r/gryphonshafer/Log-Dispatch-Email-Mailer)
+[![build](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/workflows/build/badge.svg)](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/gryphonshafer/Log-Dispatch-Email-Mailer/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Log-Dispatch-Email-Mailer)
 
 # SYNOPSIS
 
@@ -221,8 +221,8 @@ You can also look for additional information at:
 
 - [GitHub](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer)
 - [MetaCPAN](https://metacpan.org/pod/Log::Dispatch::Email::Mailer)
-- [Travis CI](https://travis-ci.org/gryphonshafer/Log-Dispatch-Email-Mailer)
-- [Coveralls](https://coveralls.io/r/gryphonshafer/Log-Dispatch-Email-Mailer)
+- [GitHub Actions](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/actions)
+- [Codecov](https://codecov.io/gh/gryphonshafer/Log-Dispatch-Email-Mailer)
 - [CPANTS](http://cpants.cpanauthors.org/dist/Log-Dispatch-Email-Mailer)
 - [CPAN Testers](http://www.cpantesters.org/distro/D/Log-Dispatch-Email-Mailer.html)
 
@@ -232,7 +232,7 @@ Gryphon Shafer <gryphon@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2020 by Gryphon Shafer.
+This software is copyright (c) 2021 by Gryphon Shafer.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.

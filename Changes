@@ -1,6 +1,8 @@
 Revision history for Log::Dispatch::Email::Mailer
 
 {{$NEXT}}
+        - Migrate Travis CI and Coveralls to GitHub Actions and Codecov
+        - Update copyright year
 
 1.08      2020-09-16 10:26:57-07:00 America/Los_Angeles
         - Improve tests to handle header changes from dependencies
