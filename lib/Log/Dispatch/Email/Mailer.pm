@@ -63,7 +63,7 @@ __END__
 =begin :badges
 
 =for markdown
-[![build](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/workflows/build/badge.svg)](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/actions?query=workflow%3Abuild)
+[![test](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/workflows/test/badge.svg)](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/Log-Dispatch-Email-Mailer/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Log-Dispatch-Email-Mailer)
 
 =end :badges
