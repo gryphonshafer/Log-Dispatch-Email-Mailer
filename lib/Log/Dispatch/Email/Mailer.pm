@@ -2,11 +2,7 @@ package Log::Dispatch::Email::Mailer;
 # ABSTRACT: Log::Dispatch::Email subclass that sends mail using Email::Mailer
 
 use 5.014;
-use strict;
-use warnings;
-
-use base 'Log::Dispatch::Email';
-
+use exact 'Log::Dispatch::Email';
 use Email::Mailer 1.09;
 
 # VERSION
