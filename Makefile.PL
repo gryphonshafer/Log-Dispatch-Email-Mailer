@@ -17,10 +17,9 @@ my %WriteMakefileArgs = (
   "MIN_PERL_VERSION" => "5.014",
   "NAME" => "Log::Dispatch::Email::Mailer",
   "PREREQ_PM" => {
-    "Email::Mailer" => "1.09",
-    "Log::Dispatch::Email" => 0,
-    "base" => 0,
-    "exact" => 0
+    "Email::Mailer" => "1.16",
+    "Log::Dispatch::Email" => "2.7",
+    "exact" => "1.14"
   },
   "TEST_REQUIRES" => {
     "File::Basename" => 0,
@@ -33,7 +32,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.10",
+  "VERSION" => "1.11",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -41,17 +40,16 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
-  "Email::Mailer" => "1.09",
+  "Email::Mailer" => "1.16",
   "File::Basename" => 0,
   "File::Spec" => 0,
   "IO::All" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
-  "Log::Dispatch::Email" => 0,
+  "Log::Dispatch::Email" => "2.7",
   "Test2::V0" => 0,
   "Test::More" => 0,
-  "base" => 0,
-  "exact" => 0,
+  "exact" => "1.14",
   "strict" => 0,
   "warnings" => 0
 );
