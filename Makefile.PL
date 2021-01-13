@@ -18,6 +18,8 @@ my %WriteMakefileArgs = (
   "NAME" => "Log::Dispatch::Email::Mailer",
   "PREREQ_PM" => {
     "Email::Mailer" => "1.09",
+    "Log::Dispatch::Email" => 0,
+    "base" => 0,
     "exact" => 0
   },
   "TEST_REQUIRES" => {
@@ -31,7 +33,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.09",
+  "VERSION" => "1.10",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -45,8 +47,10 @@ my %FallbackPrereqs = (
   "IO::All" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
+  "Log::Dispatch::Email" => 0,
   "Test2::V0" => 0,
   "Test::More" => 0,
+  "base" => 0,
   "exact" => 0,
   "strict" => 0,
   "warnings" => 0

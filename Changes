@@ -1,6 +1,7 @@
 Revision history for Log::Dispatch::Email::Mailer
 
 {{$NEXT}}
+        - Patch to fix missing parent dependency
 
 1.09      2021-01-11 09:04:55-08:00 America/Los_Angeles
         - Migrate to Test2::V0 and add exact

@@ -4,7 +4,7 @@ Log::Dispatch::Email::Mailer - Log::Dispatch::Email subclass that sends mail usi
 
 # VERSION
 
-version 1.09
+version 1.10
 
 [![test](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/workflows/test/badge.svg)](https://github.com/gryphonshafer/Log-Dispatch-Email-Mailer/actions?query=workflow%3Atest)
 [![codecov](https://codecov.io/gh/gryphonshafer/Log-Dispatch-Email-Mailer/graph/badge.svg)](https://codecov.io/gh/gryphonshafer/Log-Dispatch-Email-Mailer)
