@@ -1,6 +1,7 @@
 Revision history for Log::Dispatch::Email::Mailer
 
 {{$NEXT}}
+        - Require exact v1.23 (resolves issue #5)
 
 1.12      2022-03-19 17:51:43-07:00 America/Los_Angeles
         - Minor documentation update
